@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Pourquoi nous choisir - L’Europeo Africaine de Courtage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/blanc.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    /* =============== GÉNÉRAL =============== */
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* =============== HEADER =============== */
+    .site-header {
+      background-color: #086c64;
+      color: white;
+      text-align: center;
+      padding: 1.5em 1em;
+    }
+
+    .header-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .logo {
+      max-width: 80px;
+      margin-bottom: 1em;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin: 1em 0 0 0;
+      gap: 1.5em;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 3px;
+    }
+
+    nav ul li a.active,
+    nav ul li a:hover {
+      border-color: white;
+    }
+
+    /* =============== BANNIÈRE =============== */
+    .banner-why {
+      background-image: url('images/historical-buildings-morocco.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .banner-overlay {
+      background-color: rgba(8, 108, 100, 0.75);
+      color: white;
+      padding: 1.5em 2em;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .banner-overlay h2 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    /* =============== CONTENU =============== */
+    .why-content {
+      background-color: #daf2ed;
+      padding: 3em 1em;
+    }
+
+    .why-section {
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2em;
+    }
+
+    .why-block {
+      background-color: white;
+      padding: 1.5em;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .why-block:hover {
+      transform: translateY(-5px);
+    }
+
+    .why-block h3 {
+      color: #086c64;
+      margin-bottom: 0.5em;
+    }
+
+    .why-block p {
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* =============== BANNIÈRE BAS =============== */
+    .banniere-bas {
+      margin-top: 3em;
+    }
+
+    .banniere-bas img {
+      width: 100%;
+      display: block;
+    }
+
+    /* =============== FOOTER =============== */
+    footer {
+      background-color: #064f48;
+      color: white;
+      text-align: center;
+      padding: 1.5em 1em;
+    }
+
+    /* =============== RESPONSIVE =============== */
+    @media (max-width: 600px) {
+      .banner-overlay {
+        padding: 1em;
+      }
+
+      .banner-overlay h2 {
+        font-size: 1.5em;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+      }
+
+      .why-block {
+        padding: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- En-tête -->
+  <header class="site-header">
+    <div class="header-container">
+      <img src="images/Logo géométrique minimaliste en dégradé.png" alt="Logo" class="logo">
+      <div class="title-block">
+        <h1>L’EUROPEO AFRICAINE DE COURTAGE</h1>
+        <p>Votre partenaire de confiance en réassurance, basé en Algérie</p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="pourquoi.html" class="active">Pourquoi nous choisir</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Bannière -->
+  <div class="banner-why">
+    <div class="banner-overlay">
+      <h2>Pourquoi nous choisir</h2>
+    </div>
+  </div>
+
+  <!-- Contenu principal -->
+  <main class="why-content">
+    <section class="why-section">
+      <div class="why-block">
+        <h3>📍 Expertise locale et internationale</h3>
+        <p>Plus de 35 ans d’expérience cumulée dans la réassurance, avec une parfaite connaissance du marché algérien.</p>
+      </div>
+      <div class="why-block">
+        <h3>✅ Agrément officiel</h3>
+        <p>Société agréée par arrêté du Ministre des Finances, active dans toutes les branches vie et non-vie.</p>
+      </div>
+      <div class="why-block">
+        <h3>🤝 Approche humaine et personnalisée</h3>
+        <p>Notre relation client est basée sur l’écoute, la confiance et la réactivité.</p>
+      </div>
+      <div class="why-block">
+        <h3>🧭 Indépendance</h3>
+        <p>Nous ne dépendons d’aucune compagnie d’assurance, garantissant un conseil impartial.</p>
+      </div>
+      <div class="why-block">
+        <h3>⚡ Réactivité et transparence</h3>
+        <p>Nous garantissons un accompagnement clair, rapide et fiable à chaque étape.</p>
+      </div>
+      <div class="why-block">
+        <h3>🌐 Un réseau de partenaires solide</h3>
+        <p>Collaboration avec des acteurs fiables en Algérie et à l’international.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Bannière décorative bas -->
+  <div class="banniere-bas">
+    <img src="images/banner.jpg" alt="Bannière bas de page">
+  </div>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>&copy; 2025 L’Europeo Africaine de Courtage · Tous droits réservés</p>
+  </footer>
+
+</body>
+</html>
